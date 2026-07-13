@@ -1,31 +1,29 @@
-# E-Commerce-Sales-Analysis
+# E-Commerce Sales Performance & Customer Analytics
 
-Project Report: E-Commerce Sales Performance & Customer Analytics
-1. Executive Summary (The "Why")
-	•	Objective: Define the business goal. Example: "To evaluate 2 years of sales data to identify revenue bottlenecks, optimise regional operations, and develop a customer segmentation strategy to improve retention."
-	•	Key Findings (The "Wow" Factor): Highlight 1–2 major takeaways immediately. (e.g., "Identified that 20% of customers drive 45% of revenue, and uncovered a significant decline in South region growth rates.")
-2. Data Integrity & Preparation (The "Technical Rigour")
-	•	Data Cleaning: Mention handling duplicates, validating total_price consistency (unit_price * quantity), and formatting dates.
-	•	Feature Engineering: Explain why you created specific features.
-	◦	RFM Metrics: "Enabled behavioural segmentation."
-	◦	Period/Seasonality Columns: "Facilitated chronological trend analysis."
-	◦	Customer Type: "Allowed for New vs. Returning customer tracking."
-3. Strategic Analysis (The "Insight Trifecta")
-Organise your findings by business impact:
-	•	A. Sales & Seasonality:
-	◦	Analyse the monthly and quarterly trends.
-	◦	Insight: "While total sales are stable, I identified specific months with negative growth, suggesting a need for seasonal marketing adjustments."
-	•	B. Regional Performance:
-	◦	Show which regions are "Above Average" vs. "Below Average."
-	◦	Insight: "North and South regions are high-performers, but the Central region requires a targeted regional promotion strategy."
-	•	C. Customer Behaviour (The RFM Model):
-	◦	Explain your segmentation (Champions, Loyal, At-Risk).
-	◦	Insight: "45% of revenue is driven by the top 20% of customers—this segment is your highest priority for loyalty programs."
-	•	D. Payment Method Optimisation:
-	◦	Insight: "While Net Banking has the highest volume, Cash on Delivery (CoD) transactions have a higher average order value, indicating trust is a major factor in high-ticket purchases."
-4. Recommendations
-	•	Actionable Advice: I recommend a targeted A/B test for the 'At Risk' segment, as their lower recency scores indicate churn potential.
-	•	Operational Strategy: Suggest focus areas for the marketing or logistics team based on regional underperformance.
-5. Technical Stack & Methodology
-	•	Tools: Python (Pandas for manipulation, Matplotlib/Seaborn for visualisation).
-	•	Scaling: Mention why Python was chosen—automation, reproducibility, and handling growing datasets.
+## 🚀 Project Overview
+This project provides an end-to-end data analysis of 5,000+ e-commerce transactions. The goal was to transform raw sales data into actionable business intelligence by analyzing regional performance, seasonality, payment method efficacy, and customer behavioral segments (RFM).
+
+## 📊 Key Insights
+* **Customer Segmentation:** Identified that 20% of the customer base ("Champions" and "Loyal" segments) drives over 45% of total revenue, highlighting a critical opportunity for targeted retention programs.
+* **Regional Bottlenecks:** While the North region leads in revenue, analysis revealed a YoY growth stagnation in the South and East regions, suggesting a need for region-specific promotional strategies.
+* **Payment Behavior:** Discovered that although Net Banking has the highest transaction volume, Cash on Delivery (CoD) transactions correlate with a higher Average Order Value (AOV), indicating high-ticket customer trust preferences.
+* **Seasonality:** Identified specific low-growth months, providing a roadmap for future inventory management and seasonal discount scheduling.
+
+## 🛠 Tech Stack
+* **Language:** Python
+* **Libraries:** `Pandas` (data manipulation & feature engineering), `Matplotlib` (visualization).
+* **Techniques:** RFM (Recency, Frequency, Monetary) Segmentation, YoY/MoM Growth Analysis, Data Cleaning, and Correlation Analysis.
+
+
+## 📂 Repository Structure
+* `Sales_Performance_Analysis.ipynb`: The complete notebook containing the data cleaning, analysis pipeline, and visualization code.
+* `ecommerce_sales.csv`: The raw dataset used for this analysis.
+
+## 💡 Recommendations for Stakeholders
+Based on the analysis, I recommend:
+1.  **Retention:** Launching a loyalty program specifically for the "Potential Loyalists" segment to migrate them to "Champions."
+2.  **Growth:** Initiating region-specific marketing campaigns for the South and East regions to reverse negative YoY trends.
+3.  **Operations:** Optimizing the checkout flow for high-value segments to maintain the trust established by CoD options while incentivizing safer digital payment methods.
+
+---
+*Created by Nisha Kherala | Data Analysis Enthusiast*
